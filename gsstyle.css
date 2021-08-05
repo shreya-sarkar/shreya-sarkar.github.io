@@ -1,0 +1,15 @@
+body {
+  font-family: Verdana;
+  margin: 40px;
+  background-color: lavender;
+}
+
+canvas {
+  border: 1px solid #c3c3c3;
+  height: 200px;
+  background-color: white;
+}
+
+input {
+  font-size: 12pt;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Trying the Green Screen!</title>
+  <link rel="stylesheet" href="./gsstyle.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://www.dukelearntoprogram.com//course1/common/js/image/SimpleImage.js">
+</script>
+<h1>Trying the Green Screen!</h1>
+<canvas id="cnv1">
+</canvas>
+<canvas id="cnv2">
+</canvas>
+<p>
+  Select Foreground: <input type="file" id="ip1" multiple="false" accept="image/*" onchange="loadForegroundImage()">
+</p>
+<p>
+  Select Background: <input type="file" id="ip2" multiple="false" accept="image/*" onchange="loadBackgroundImage()">
+</p>
+<p>
+  <input type="button" value="Create Composite" id="btn1" onclick="doGreenScreen()" />
+  <input type="button" value="Clear Canvases" id="btn2" onclick="clear()"/>
+</p>
+<!-- partial -->
+  <script  src="./gsscript.js"></script>
+
+</body>
+</html>
