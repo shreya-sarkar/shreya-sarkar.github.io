@@ -1,0 +1,14 @@
+body{
+  text-align:center;
+  background: url(bg2.jpg);
+  background-repeat: no-repeat;
+  color:whitesmoke;
+}
+canvas {
+  border: 1px solid #c3c3c3;
+  height: 200px;
+  background-color:white;
+}
+#modimg{
+  filter:blur(20);
+}
