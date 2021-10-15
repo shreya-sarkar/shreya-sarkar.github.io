@@ -1,0 +1,104 @@
+/*general*/
+
+html{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	background-image: url("bgimg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font: 18px Georgia, Times, "Times New Roman", Serif;
+	text-align: center;
+}
+
+h1{
+	font: 50px;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	color:antiquewhite;
+	margin: 1em 1em 1em 1em;
+	border: 2px;
+}
+
+/*menu page*/
+#para{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+ul#measurement-types{
+	list-style-type: none;
+    margin: 1em 1em 1em 1em;
+    padding: 0;
+    overflow: hidden;
+    background-color:darkslategrey;
+}
+
+ul#measurement-types li{
+	float: left;
+}
+
+ul#measurement-types li a{
+	display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#btn{
+	align-items: center;
+	margin: 0 auto;
+}
+
+ul#measurement-types li a:hover{
+	color: white;
+	background: blue;
+}
+
+a{
+	color:wheat
+}
+/*Conversion forms*/
+
+form label{
+	display: inline-block;
+	width: 45px;
+	color: whitesmoke;
+}
+
+form input[type="text"]{
+	width: 80px;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+form select{
+	margin: 1em 0;
+	font-size: 14px;
+}
+
+form input[type="submit"]{
+	font-size: 1em;
+	text-decoration: none;
+	color: black;
+	display: inline;
+	background: white;
+	margin: 2em 2em 2em 2em;
+	padding: 6px 12px;
+	border: 1px solid black;
+	align-self: center;
+}
+
+form input[type="submit"]:hover{
+	color: white;
+	background: #FDB912;
+}
